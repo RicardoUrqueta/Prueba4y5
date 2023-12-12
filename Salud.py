@@ -16,7 +16,7 @@ def obtener_estado_salud_red(ip, puerto, ticket):
 # Reemplaza estas variables con tus valores reales
 ip = "127.0.0.1"
 puerto = "58000"
-ticket = "NC-23-ffaaec7859f24b16a09e-nbi"
+ticket = "NC-9-cce79debb5914227b6cf-nbi"
 
 estado_salud_red = obtener_estado_salud_red(ip, puerto, ticket)
 if estado_salud_red:

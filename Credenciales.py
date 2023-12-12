@@ -17,4 +17,4 @@ def obtener_credenciales(ip, puerto, ticket_api):
         return f"Error: {response.status_code}"
 
 # Reemplaza 'IP', 'PUERTO' y 'TICKET_API' con tus valores
-print(obtener_credenciales('127.0.0.1', '58000', 'NC-23-ffaaec7859f24b16a09e-nbi'))
+print(obtener_credenciales('127.0.0.1', '58000', 'NC-9-cce79debb5914227b6cf-nbi'))
