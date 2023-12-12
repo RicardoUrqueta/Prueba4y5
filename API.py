@@ -1,7 +1,7 @@
 import requests
 
 def obtener_ticket():
-    url = "http://localhost:58000/api/v1/ticket"
+    url = "http://127.0.0.1:58000/api/v1/ticket"
     headers = {
         "content-type": "application/json"
     }
